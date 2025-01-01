@@ -1,0 +1,563 @@
+.main-photo-icon {
+    position: absolute;
+    top: -6px;
+    left: 0px;
+    border-radius: 5px;
+    width: 1000px;
+    height: 542px;
+    object-fit: cover;
+}
+.b {
+    align-self: stretch;
+    position: relative;
+    line-height: 100%;
+    display: inline-block;
+    height: 96px;
+    flex-shrink: 0;
+}
+.div {
+    width: 625px;
+    position: relative;
+    line-height: 135%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.photofact-child {
+    width: 125px;
+    position: relative;
+    border-radius: 100px;
+    height: 125px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.b1 {
+    font-family: 'PT Sans';
+}
+.p {
+    margin-block-start: 0;
+    margin-block-end: 4px;
+}
+.p1 {
+    margin: 0;
+}
+.div1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 115%;
+}
+.photofact {
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    font-family: 'PT Sans';
+}
+.lidphoto-expert {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 20px;
+}
+.headlid {
+    position: absolute;
+    top: 584px;
+    left: 80px;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 48px;
+}
+.wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.touch {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.gnil-icon {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 161px;
+    height: 122px;
+    object-fit: cover;
+}
+.tverd-icon {
+    position: absolute;
+    top: 12px;
+    left: 223px;
+    width: 161px;
+    height: 133px;
+    object-fit: cover;
+}
+.spel-icon {
+    position: absolute;
+    top: 14px;
+    left: 446px;
+    width: 156px;
+    height: 117px;
+    object-fit: cover;
+}
+.spelost-photo {
+    align-self: stretch;
+    position: relative;
+    height: 140px;
+}
+.div3 {
+    align-self: stretch;
+    position: relative;
+    line-height: 135%;
+    font-weight: 500;
+}
+.parent {
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.spelost-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.spelost-phototext {
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 13px;
+}
+.touch-text {
+    position: absolute;
+    top: 926px;
+    left: 80px;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.video-touch {
+    align-self: stretch;
+    position: relative;
+    height: 472px;
+}
+.vide-touchtext {
+    position: absolute;
+    top: 1468px;
+    left: 80px;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 13px;
+}
+.div10 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 135%;
+    display: inline-block;
+    width: 625px;
+    height: 132px;
+}
+.frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 625px;
+    height: 134px;
+}
+.mandarin-list-icon {
+    width: 130px;
+    position: relative;
+    height: 122px;
+    object-fit: cover;
+}
+.mandarin-list-parent {
+    position: absolute;
+    top: 0px;
+    left: 645px;
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    font-family: 'PT Sans';
+}
+.frame-parent {
+    align-self: stretch;
+    position: relative;
+    height: 194px;
+    font-size: 16px;
+}
+.view {
+    position: absolute;
+    top: 2011px;
+    left: 80px;
+    width: 840px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frame-child {
+    width: 123px;
+    position: relative;
+    border-radius: 100px;
+    height: 123px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.div12 {
+    width: 349px;
+    position: relative;
+    line-height: 135%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.div13 {
+    width: 350px;
+    position: relative;
+    line-height: 135%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.pyatno {
+    position: absolute;
+    top: 2211px;
+    left: 80px;
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 16px;
+}
+.c {
+    align-self: stretch;
+    position: relative;
+    line-height: 135%;
+    font-weight: 800;
+}
+.div15 {
+    align-self: stretch;
+    position: relative;
+    font-size: 13px;
+    line-height: 135%;
+    color: #000;
+    text-align: right;
+}
+.expert1 {
+    position: absolute;
+    top: 2644px;
+    left: 80px;
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #f78523;
+}
+.c1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 135%;
+}
+.div16 {
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.ves-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 13px;
+}
+.vesvideo {
+    position: absolute;
+    top: 2870px;
+    left: 80px;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.div18 {
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.div19 {
+    position: absolute;
+    top: 4.5px;
+    left: 0px;
+    line-height: 135%;
+    display: inline-block;
+    width: 625px;
+}
+.b6 {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    line-height: 100%;
+    display: flex;
+    align-items: flex-end;
+    width: 123px;
+}
+.div20 {
+    position: absolute;
+    top: 72px;
+    left: 0px;
+    font-size: 13px;
+    line-height: 100%;
+    color: #000;
+    display: inline-block;
+    width: 123px;
+}
+.factoid {
+    position: absolute;
+    top: 4px;
+    left: 645px;
+    width: 112px;
+    height: 119px;
+    font-size: 68px;
+    color: #f78523;
+    font-family: 'PT Sans';
+}
+.parent1 {
+    align-self: stretch;
+    position: relative;
+    height: 119px;
+    font-size: 16px;
+}
+.klementin-icon {
+    width: 148px;
+    position: relative;
+    height: 135.2px;
+    object-fit: cover;
+}
+.unshiu-icon {
+    width: 119px;
+    position: relative;
+    height: 101px;
+    object-fit: cover;
+}
+.murkot-icon {
+    width: 148px;
+    position: relative;
+    height: 119.7px;
+    object-fit: cover;
+}
+.klementin-parent {
+    width: 625px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 27px;
+    box-sizing: border-box;
+    gap: 73px;
+}
+.div21 {
+    width: 195px;
+    position: relative;
+    line-height: 100%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.frame-parent1 {
+    width: 625px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: 13px 20px;
+    font-size: 13px;
+}
+.sort {
+    position: absolute;
+    top: 3526px;
+    left: 80px;
+    width: 840px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.expert2 {
+    position: absolute;
+    top: 3974px;
+    left: 80px;
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #f78523;
+}
+.parent2 {
+    width: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+}
+.mandarin-final-icon {
+    width: 181px;
+    position: relative;
+    height: 164px;
+    object-fit: cover;
+}
+.frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 16px;
+}
+.itog {
+    position: absolute;
+    top: 4232px;
+    left: 80px;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.span {
+    text-decoration: underline;
+}
+.a {
+    color: #0000ee;
+}
+.inter-pt-sans {
+    align-self: stretch;
+    position: relative;
+    line-height: 135%;
+}
+.p19 {
+    margin-block-start: 0;
+    margin-block-end: 4px;
+    color: #000;
+}
+.span1 {
+    color: #000;
+}
+.a1 {
+    color: inherit;
+}
+.div32 {
+    position: relative;
+    line-height: 135%;
+    color: #0000ee;
+}
+.parent3 {
+    position: absolute;
+    top: 24px;
+    left: 80px;
+    width: 839px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.plashka {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: #f78523;
+    overflow: hidden;
+}
+.podval {
+    position: absolute;
+    top: 4547px;
+    left: 0px;
+    width: 1000px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 13px;
+}
+.mandarin {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 4771px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+
