@@ -1,10 +1,10 @@
 .main-photo-icon {
-    position: absolute;
-    top: -6px;
-    left: 0px;
-    border-radius: 5px;
-    width: 1000px;
-    height: 542px;
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 536px;
+    flex-shrink: 0;
     object-fit: cover;
 }
 .b {
@@ -66,14 +66,13 @@
     font-size: 20px;
 }
 .headlid {
-    position: absolute;
-    top: 584px;
-    left: 80px;
-    width: 840px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 48px 80px 0px;
+    box-sizing: border-box;
     gap: 24px;
     font-size: 48px;
 }
@@ -154,14 +153,13 @@
     font-size: 13px;
 }
 .touch-text {
-    position: absolute;
-    top: 926px;
-    left: 80px;
-    width: 840px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 40px 80px 0px;
+    box-sizing: border-box;
     gap: 24px;
 }
 .video-touch {
@@ -170,14 +168,13 @@
     height: 472px;
 }
 .vide-touchtext {
-    position: absolute;
-    top: 1468px;
-    left: 80px;
-    width: 840px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 24px 80px 0px;
+    box-sizing: border-box;
     gap: 13px;
     font-size: 13px;
 }
@@ -222,16 +219,14 @@
     height: 194px;
     font-size: 16px;
 }
-.view {
-    position: absolute;
-    top: 2011px;
-    left: 80px;
-    width: 840px;
-    height: 176px;
+.view1 {
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 40px 80px 0px;
+    box-sizing: border-box;
     gap: 16px;
 }
 .frame-child {
@@ -266,16 +261,22 @@
     flex-shrink: 0;
 }
 .pyatno {
-    position: absolute;
-    top: 2211px;
-    left: 80px;
-    width: 625px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 0px 80px;
+    box-sizing: border-box;
     gap: 13px;
+    margin-top: -36px;
     font-size: 16px;
+}
+.view {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 .c {
     align-self: stretch;
@@ -292,14 +293,13 @@
     text-align: right;
 }
 .expert1 {
-    position: absolute;
-    top: 2644px;
-    left: 80px;
-    width: 625px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 32px 295px 0px 80px;
+    box-sizing: border-box;
     gap: 8px;
     color: #f78523;
 }
@@ -325,17 +325,6 @@
     justify-content: flex-start;
     gap: 13px;
     font-size: 13px;
-}
-.vesvideo {
-    position: absolute;
-    top: 2870px;
-    left: 80px;
-    width: 840px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
 }
 .div18 {
     width: 625px;
@@ -433,27 +422,14 @@
     gap: 13px 20px;
     font-size: 13px;
 }
-.sort {
-    position: absolute;
-    top: 3526px;
-    left: 80px;
-    width: 840px;
-    height: 416px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-}
 .expert2 {
-    position: absolute;
-    top: 3974px;
-    left: 80px;
-    width: 625px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
+    padding: 32px 295px 0px 80px;
+    box-sizing: border-box;
     gap: 8px;
     color: #f78523;
 }
@@ -481,14 +457,13 @@
     font-size: 16px;
 }
 .itog {
-    position: absolute;
-    top: 4232px;
-    left: 80px;
-    width: 840px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 40px 80px 56px;
+    box-sizing: border-box;
     gap: 16px;
 }
 .span {
@@ -521,13 +496,14 @@
 .parent3 {
     position: absolute;
     top: 24px;
-    left: 80px;
-    width: 839px;
-    height: 152px;
+    left: 0px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 0px 295px 0px 80px;
+    box-sizing: border-box;
     gap: 10px;
 }
 .plashka {
@@ -538,11 +514,10 @@
     overflow: hidden;
 }
 .podval {
-    position: absolute;
-    top: 4547px;
-    left: 0px;
-    width: 1000px;
+    align-self: stretch;
     height: 224px;
+    overflow: hidden;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -553,8 +528,12 @@
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 4771px;
+    height: 4766px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     text-align: left;
     font-size: 24px;
     color: #000;
