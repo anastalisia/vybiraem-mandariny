@@ -1,6 +1,51 @@
-
-body {
+/* Сброс стилей и глобальные настройки */
+* {
     margin: 0;
-    line-height: normal;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Основные стили для тела страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* светлый фон для страницы */
+    color: #000; /* чёрный цвет текста */
+    line-height: 1.6;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: inherit; /* убираем подчеркивание и используем цвет текста */
+}
+
+/* Кнопки */
+button {
+    background-color: #ff69b4; /* неоновый розовый цвет для кнопок */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Стили для промостраницы */
+.promotional-banner {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    .promotional-banner {
+        padding: 15px;
+    }
+}
