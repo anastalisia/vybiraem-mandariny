@@ -68,7 +68,7 @@
     width: 195px;
     position: relative;
     height: 137px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .spelost-photo {
     align-self: stretch;
